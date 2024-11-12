@@ -1,0 +1,46 @@
+{
+  "hello": "Hello",
+  "welcome": "Welcome to the app",
+
+  "Welcome to Desktop View": "Welcome to Desktop View",
+  "Welcome to Tablet View": "Welcome to Tablet View",
+  "Welcome to Mobile View": "Welcome to Mobile View",
+  "appName": "First Amaze Group",
+  "languageOption": "English",
+  "contactInfo": {
+    "phoneNumber": "+01204232759",
+    "whatsappContact": "Contact us on WhatsApp"
+  },
+  "navigationLinks": {
+    "home": "Home",
+    "startBusiness": "Start Your Business",
+    "services": "Our Services",
+    "clients": "Our Clients",
+    "team": "Our Team",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us"
+  },
+  "company": {
+    "description": "We put years of accumulated experience within your reach and work diligently to provide all the solutions and business services that help you excel.",
+    "additionalInfo": "Establish your company in Dubai with ease and professionalism."
+  },
+  "steps": {
+    "title": "Establish Your Company in Dubai",
+    "subtitle": "In Three Simple Steps",
+    "step1": {
+      "title": "Security Approval",
+      "description": "Our team assists you in obtaining all necessary approvals."
+    },
+    "step2": {
+      "title": "Company Setup",
+      "description": "Sign the service contracts and get your license."
+    },
+    "step3": {
+      "title": "Residency",
+      "description": "Apply for residency services and any required visas."
+    },
+    "applyNow": "Apply Now"
+  }
+}
+
+

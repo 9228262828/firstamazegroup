@@ -1,0 +1,46 @@
+{
+  "hello": "مرحبا",
+  "welcome": "مرحباً بك في التطبيق",
+  "Welcome to Desktop View": "مرحبًا بكم في عرض سطح المكتب",
+  "Welcome to Tablet View": "مرحبًا بكم في عرض التابلت",
+  "Welcome to Mobile View": "مرحبًا بكم في عرض الهاتف",
+  "appName": "First Amaze Group",
+  "languageOption": "العربية",
+  "contactInfo": {
+    "phoneNumber": "+01204232759",
+    "whatsappContact": "تواصل معنا على الواتساب"
+  },
+  "navigationLinks": {
+    "home": "الرئيسية",
+    "startBusiness": "ابدأ عملك التجاري",
+    "services": "خدماتنا",
+    "clients": "عملائنا",
+    "team": "فريقنا",
+    "aboutUs": "عن الشركة",
+    "contactUs": "اتصل بنا"
+  },
+  "company": {
+    "description": "نحن نضع خلاصة سنوات طويلة من الخبرة في متناول أيديكم ونعمل جاهدين لتوفير جميع الحلول والخدمات التجارية التي تساعدكم على التميز.",
+    "additionalInfo": "أسس شركتك في دبي بسهولة واحترافية."
+  },
+  "steps": {
+    "title": "أسس شركتك في دبي",
+    "subtitle": "بثلاث خطوات",
+    "step1": {
+      "title": "الموافقة الأمنية",
+      "description": "يساعدك فريقنا في الحصول على جميع الموافقات اللازمة."
+    },
+    "step2": {
+      "title": "تأسيس الشركة",
+      "description": "توقيع عقود الخدمات والحصول على الترخيص."
+    },
+    "step3": {
+      "title": "الإقامة",
+      "description": "تقديم طلب خدمات الإقامة والتأشيرات المطلوبة."
+    },
+    "applyNow": "تقديم الآن"
+  }
+
+
+}
+
