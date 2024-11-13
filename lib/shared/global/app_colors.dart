@@ -5,7 +5,7 @@ class AppColors {
   static const Color secColor = Color(0xff6d7ce0);
   static  Color light = Color(0xFFFfffff);
   static const Color backgroundRed = Color(0xFFFFE4F2);
-  static const Color backgroundGrey = Color(0xFFAAAAAE);
+  static const Color backgroundGrey = Color(0xF000000);
   static const Color red = Color.fromRGBO(255, 2, 61, 1.0);
   static const Color boldGrey = Color(0xFFDDDDE8);
   static const Color boldBlack = Color(0xFF181818);

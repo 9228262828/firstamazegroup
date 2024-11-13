@@ -40,7 +40,78 @@
       "description": "Apply for residency services and any required visas."
     },
     "applyNow": "Apply Now"
+  },
+  "step": "Step",
+  "services_screen": {
+    "section1": {
+      "title": "Everything You Need in One Place",
+      "point1": "A comfortable working environment",
+      "description1": "An exceptional environment that meets all your requirements.",
+      "point2": "24/7 constant support",
+      "description2": "High-quality service available to all our clients.",
+      "point3": "Multilingual support",
+      "description3": "Speak in your preferred language, and we're here to assist.",
+      "point4": "No need to be present yourself",
+      "description4": "Complete the procedure while staying in your country."
+    },
+    "section2": {
+      "title": "Top Quality Service at Lower Cost",
+      "point1": "You can rely on FirstAmazeGroup to complete all procedures for establishing a company in Dubai in record time if all your documents are ready, with no hidden fees and without any difficulties.",
+      "point2": "Enter the UAE market with confidence and establish your business now with our flexible solutions and services that meet all your business requirements."
+    },
+    "button": "Learn More"
+  },
+
+  "info_section": {
+    "title": "FirstAmazeGroup is Your Ideal Way to Start Your Business",
+    "paragraph1": "FirstAmazeGroup is a company specialized in business setup and development, aiming to provide comprehensive support for investors and project owners to help them establish their businesses in Dubai by offering a full range of services.",
+    "paragraph2": "We strive to deliver innovative solutions to guide our local and international clients along the right path.",
+    "paragraph3": "As a leading company in business setup, we offer creative solutions with the help of our expert consultants to make business setup processes faster and easier.",
+    "paragraph4": "You can rely on FirstAmazeGroup to complete all procedures for establishing a company in Dubai in record time if all your documents are ready, with no hidden fees and no difficulties.",
+    "read_more": "Read More"
+  },
+
+  "services": {
+    "explore_market_requirements": {
+      "title": "Explore market requirements",
+      "subtitle": "ITQAN team of business consultants can help you expedite the process of setting up your company as well as reserving a trade name."
+    },
+    "invest_in_dubai": {
+      "title": "Invest in Dubai",
+      "subtitle": "Dubai is an international business hub that promotes growth by ensuring the greatest levels of efficiency, security, and prosperity in order to reach unprecedented levels of fast expansion."
+    },
+    "flexible_workspaces": {
+      "title": "Flexible workspaces and Solid Infrastructure",
+      "subtitle": "We provide premium workspaces that meet all your business requirements."
+    }
+  },
+
+  "team_section": {
+    "title": "Business Consultants at FirstAmazeGroup",
+    "description": "Our team consists of top experts in consulting, with knowledge and experience in technical, legal, and business domains. They are dedicated to providing innovative solutions for our clients and guiding them to success.",
+    "role1": "Business Consultant",
+    "role2": "Another Role",
+    "button": "Meet the FirstAmazeGroup Team",
+  "contact_form": {
+    "promise_title": "The Promise of FirstAmazeGroup",
+    "subtitle": "As a leading company in business setup, FirstAmazeGroup's team of consultants can help you expedite the process of establishing your business. Additionally, you can rely on FirstAmazeGroup to handle all formalities efficiently.",
+    "ceo_name": "Ahmed Mohamed Sherif - Chairman",
+    "contact_us": "Contact Us",
+    "support_24_7": "24/7 Support",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "country": "Country",
+    "message": "Message",
+    "submit": "Submit",
+    "get_support": "Get exclusive support for your business",
+    "contact_us_footer": "← Contact Us"
   }
 }
+
+
+}
+
+
 
 

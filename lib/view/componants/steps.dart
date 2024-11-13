@@ -28,47 +28,66 @@ class StepsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min, // Add this line
-      children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(vertical: 8.0),
-          child: Text(
-            'company.additionalInfo',
-            style: TextStyle(
-                fontSize: 32, color: Colors.black, fontWeight: FontWeight.bold),
-            textAlign: TextAlign.center,
-          ).tr(),
-        ),
-        Center(
-          child: Text(
-            'steps.subtitle',
-            style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: AppColors.primary),
-          ).tr(),
-        ),
-        SizedBox(height: 16),
-        ...steps.map((step) => buildStepItem(context, step)).toList(),
-        SizedBox(height: 20),
-        Center(
-          child: ElevatedButton(
-            style: ElevatedButton.styleFrom(
-              backgroundColor: AppColors.primary,
-              padding: EdgeInsets.symmetric(horizontal: 30, vertical: 12),
-              textStyle: TextStyle(fontSize: 18),
-            ),
-            onPressed: () {
-              // Handle button press
-            },
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Column(
+        mainAxisSize: MainAxisSize.min, // Add this line
+        children: [
+          Column(
+            children: [
+              Image.asset(
+                'assets/images/logo.png',
+                height: mediaQueryHeight(context) * 0.2,
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                child: Text(
+                  'company.description',
+                  style: TextStyle(fontSize: 16),
+                  textAlign: TextAlign.center,
+                ).tr(),
+              ),
+            ],
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8.0),
             child: Text(
-              'steps.applyNow',
-              style: TextStyle(color: Colors.white),
+              'company.additionalInfo',
+              style: TextStyle(
+                  fontSize: 32, color: Colors.black, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
             ).tr(),
           ),
-        ),
-      ],
+          Center(
+            child: Text(
+              'steps.subtitle',
+              style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: AppColors.primary),
+            ).tr(),
+          ),
+          SizedBox(height: 16),
+          ...steps.map((step) => buildStepItem(context, step)).toList(),
+          SizedBox(height: 20),
+          Center(
+            child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.primary,
+                padding: EdgeInsets.symmetric(horizontal: 30, vertical: 12),
+                textStyle: TextStyle(fontSize: 18),
+              ),
+              onPressed: () {
+                // Handle button press
+              },
+              child: Text(
+                'steps.applyNow',
+                style: TextStyle(color: Colors.white),
+              ).tr(),
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -90,17 +109,26 @@ class StepsScreen extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text(
-                    'خطوة',
-                    style: TextStyle(fontSize: 12, color: Colors.blue, fontWeight: FontWeight.bold),
+                  Row(
+                    children: [
+                      Text(
+                        '       ',
+                        style: TextStyle(fontSize: 12, color: Colors.blue, fontWeight: FontWeight.bold),
+                      ),
+                      Text(
+                        'step'.tr(),
+                        style: TextStyle(fontSize: 12, color: Colors.blue, fontWeight: FontWeight.bold),
+                      ),
+
+                    ],
                   ),
                   Text(
                     step.stepNumber,
-                    style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold, color: Colors.black),
+                    style: TextStyle(fontSize: 70, fontWeight: FontWeight.bold, color: Colors.black),
                   ),
                 ],
               ),
-              SizedBox(width: mediaQueryWidth(context) * 0.05),
+              SizedBox(width: mediaQueryWidth(context) * 0.08),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
